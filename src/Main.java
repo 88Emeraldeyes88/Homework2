@@ -49,7 +49,7 @@ public class Main {
             var totalWeight = weightFirstBoxer + weightSecondBoxer;
             System.out.println("Общая масса двух боксеров" + totalWeight + "кг");
             var weightDifference = weightSecondBoxer - weightFirstBoxer;
-            System.out.println("Разница между массами боксеров" + weightDifference + "кг");
+            System.out.println("Разница между массами боксеров" + weightDifference + "кг!");
             var massDifference = (weightSecondBoxer - weightFirstBoxer) % totalWeight;
             System.out.println("Разница масс боксеров" + massDifference + " кг");
             var totalTime = 640;
